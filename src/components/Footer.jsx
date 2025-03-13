@@ -1,4 +1,4 @@
-import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaDiscord, FaGithub, FaLinkedin, FaMastodon } from "react-icons/fa";
 import { FaBluesky, FaXTwitter } from "react-icons/fa6";
 
 const socialLinks = [
@@ -6,6 +6,7 @@ const socialLinks = [
   { href: "https://x.com/D4rsh69", icon: <FaXTwitter /> },
   { href: "https://bsky.app/profile/d4rsh.bsky.social", icon: <FaBluesky /> },
   { href: "https://www.linkedin.com/in/darshan-patil-8b15aa230/", icon: <FaLinkedin /> },
+  { href: "https://mastodon.social/@darshan11", icon: <FaMastodon /> },
   { href: "https://github.com/DARSHAN-PATIL11", icon: <FaGithub /> },
 ];
 
